@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import {deleteUser, getAllUsers} from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio} from 'antd';
+import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Image} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -198,7 +198,12 @@ function App() {
                     {renderUsers()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>Trackeet ©2021 Created by Gabicle</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                {/*<Image*/}
+                {/*    width={75}*/}
+                {/*    src="https://user-images.githubusercontent.com/49395894/140644374-6bba31c7-69e2-4380-b66f-8ce2f3103fc0.PNG"*/}
+                {/*/>*/}
+                Trackeet ©2021 Created by Gabicle</Footer>
         </Layout>
     </Layout>
 
