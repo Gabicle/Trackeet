@@ -191,6 +191,8 @@
 						<configuration>
 							<nodeVersion>v4.6.0</nodeVersion>
 							<workingDirectory>src/frontend</workingDirectory>
+							<npmVersion>2.15.9</npmVersion>
+
 						</configuration>
 						<executions>
 							<execution>
